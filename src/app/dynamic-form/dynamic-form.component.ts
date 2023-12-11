@@ -31,6 +31,7 @@ export class DynamicFormComponent {
       this.form.markAsPristine();
     } else {
       this.form.markAllAsTouched();
+      console.log('MArcou todos')
     }
   }
 }
